@@ -1,0 +1,11 @@
+# Local datasets (large / non-redistributable)
+datasets/*.h5
+datasets/*.hdf5
+
+# Outputs / checkpoints
+outputs/
+
+# Python caches
+__pycache__/
+*.pyc
+
