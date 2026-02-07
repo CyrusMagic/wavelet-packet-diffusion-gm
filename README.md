@@ -125,7 +125,14 @@ Runtime configuration is controlled by module-level constants in `Main.py` and c
 - EMA decay rate: 0.999
 - Training epochs: 100 epochs
 - Mixed precision: BF16
-- Training time: ~2.5 hours (3×A100)
+
+```bash
+# Set in Main.py
+STATE = "train"
+
+# Execute
+python Main.py
+```
 
 ### Testing/Inference
 
@@ -144,7 +151,6 @@ Place the weight files in the directory specified by `PathConfig.WEIGHTS_DIR`.
 ```bash
 # Set in Main.py
 STATE = "test"
-COND_CONFIG_ID = 1  # Use full conditioning
 
 # Execute
 python Main.py
