@@ -31,7 +31,7 @@ The framework comprises three core components:
 3. **EDM Denoising Network**: U-Net architecture with cross-attention mechanism, trained in normalized wavelet packet coefficient space
 
 Compared to STFT+Griffin-Lim-based methods, wavelet packet representation offers the following advantages:
-- Reconstruction precision improved to machine precision level (~10⁻¹⁴ vs. 10¹)
+- Reconstruction precision improved to machine precision level
 - Single-pass forward reconstruction without iterative phase recovery
 - Linear transformation with perfect phase preservation
 
